@@ -1,0 +1,91 @@
+
+
+header{
+
+  background-color: rgb(27, 192, 233);
+  text-align: center;
+ 
+  font-size:35px;
+  font-family: 'arial';
+  font-weight:bold;
+  border-bottom:black solid 4px;
+}
+header h1{
+  padding: 4px 8px;
+  display: inline-block;
+  border:8px solid rgb(248, 248, 248);
+  border-radius: 40px;
+color:rgb(255, 255, 255);
+}
+
+/* header over */
+body{
+  margin:0;
+}
+div.choice{
+  
+  background-color: rgb(217, 121, 235);
+display: flex;
+justify-content: flex-end;
+border-bottom: solid black 4px;
+}
+div.choice button{
+  font-size: 20px;
+  font-family:'arial';
+  font-weight: bold;
+  background:rgb(128, 250, 244);
+  
+  border-radius: 8px;
+cursor: pointer; 
+  padding:4px 4px;
+}
+div.tiles{
+  display: flex;
+  justify-content:center ;
+}
+div.tiles button{
+  border: 6px solid black;
+  width:200px;
+  padding: 80px 50px;
+  margin: 20px;
+  border-radius: 20%;
+  -webkit-box-shadow: 0px 6px 0px #2b638f;
+-moz-box-shadow: 0px 6px 0px #2b638f;
+box-shadow: 0px 6px 0px #2b638f;
+cursor:pointer;
+ 
+}
+#mainbody{background-color: rgb(27, 192, 233);
+padding-top: 106px;
+padding-bottom: 100px;}
+#RGBHead{
+  display: inline-block;
+  width: 100%;
+background-color: rgb(26, 224, 195);
+margin: 0;
+text-align: center;
+font-size: 70px;
+font-family: arial;
+border-bottom: solid black 4px;
+}
+#wintext{
+font-family: 'arial';
+font-size: 25px;
+display:none;
+margin-top: 3px;
+margin-bottom: 0;
+white-space: nowrap;
+text-decoration: solid;
+font-weight:bolder ;
+}
+#losetext{
+font-family: 'arial';
+font-size: 25px;
+display:none;
+margin-top: 3px;
+margin-bottom: 0;
+white-space: nowrap;
+text-decoration: solid;
+font-weight:bolder ;
+}
+#reset{white-space: nowrap;}
